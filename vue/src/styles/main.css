@@ -1,0 +1,84 @@
+@import url('./base/button.css');
+@import url('./base/input.css');
+@import url('./base/icon.css');
+@import url('./base/table.css');
+@import url('./base/filter.css');
+@import url('./base/form.css');
+@import url('./base/tooltip.css');
+@import url('./base/combobox.css');
+@import url('./base/dropdown-list.css');
+@import url('./base/checkbox.css');
+* {
+    box-sizing: border-box;
+     
+}
+body {
+    font-family: font;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin:0
+}
+ul{
+    margin:0
+}
+@font-face{
+    font-family: font;
+    src: url('../assets/fonts/Roboto-Regular.ttf'); 
+    font-weight: 400;
+}
+@font-face{
+    font-family: font;
+    src: url('../assets/fonts/Roboto-Bold.ttf');
+    font-weight: 700; 
+}
+@font-face{
+    font-family: font;
+    src: url('../assets/fonts/Roboto-Regular.ttf');
+    font-weight: 500; 
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+button:focus {
+    outline: none;
+  }
+.modal-overlay{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0 , 0, 0, 0.4);
+    border-radius: 4px;
+    z-index: 100;
+}
+.primary-text{
+    color: var(--primary-color);
+    margin:0 10px;
+}
+.primary-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #cdd3d6;
+    border-radius: 2px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6d6d6d;
+}
+::-webkit-scrollbar-corner {
+    display: none;
+  }

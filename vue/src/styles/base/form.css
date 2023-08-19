@@ -1,0 +1,58 @@
+.competition-form{
+    background-color: white;
+    width: 600px;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+    box-shadow: 0 0 16px rgba(23,27,42,.24);
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    margin-right: 10px;
+    flex: 1;
+}
+.form-header{
+    padding: 24px 24px 6px 24px;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.form-icon{
+    column-gap: 16px;
+}
+.form-main{
+    padding: 24px 24px 0;
+    margin-bottom: 20px ;
+
+}
+.form-main .form-label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+.group-two{
+    justify-content: space-between;
+}
+.form-select{
+    height: 36px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-bottom{
+    padding: 12px 24px;
+    border-top: 1px solid #e0e0e0;
+}
+.form-bottom{
+    justify-content: flex-start;
+    column-gap: 10px;
+    flex-direction: row-reverse;
+}
+.form-message{
+    color: var(--error-color);
+    margin-top:6px;
+}

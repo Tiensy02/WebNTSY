@@ -1,0 +1,20 @@
+.text-area-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.form-textarea{
+    border: 1px solid var(--border-color);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: font;
+    resize: none;
+    outline: none;
+}
+.form-textarea:focus{
+    border-color: var(--primary-color);
+}
+.form-textarea:hover{
+    border-color: var(--primary-color);
+
+}

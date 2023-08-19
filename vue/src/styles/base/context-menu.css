@@ -1,0 +1,30 @@
+.context-menu-wrap{
+    position:absolute;
+    width: 200px;
+    border-radius: 4px;
+    background-color: white;
+    padding:4px 0;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);
+    top:100%;
+    z-index: 10;
+    right: -2px;
+}
+.context-menu-item{
+    height: 36px;
+    padding-left: 26px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.context-menu-item:hover{
+    background-color: var(--secondary-color);
+}
+.context-menu-item-active{
+    opacity: 0.5;
+}
+.context-menu-item.context-menu-item-active:hover{
+    background-color: unset;
+}
+.item-danger{
+    color: var( --danger-color);
+}

@@ -1,0 +1,156 @@
+.icon {
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.l-icon {
+    height: 32px;
+    width: 32px;
+    background-size: contain;
+    cursor: pointer;
+}
+.icon--right{
+    margin-left: 12px;
+}
+.icon--left{
+    margin-right: 12px;
+}
+.icon-circle{
+    height: 50%;
+    width: 32px;
+    border-radius: 50%;
+
+}
+.icon-circle:hover{
+    background-color: #f5f5f5;
+}
+.icon::before{
+    content: "";
+    height: 24px;
+    width: 24px;
+    position:absolute;
+}
+.icon-filter::before{
+    height: 16px !important;
+    width: 16px !important;
+    background: url('../../assets/img/sprites.06b14dc5.svg') no-repeat -100px -52px;
+    top:4px;
+    left:4px;
+}
+
+.icon-add::before{
+    background: url('../../assets/img/sprites.06b14dc5.svg') no-repeat -196px -100px;
+    height: 16px !important;
+    width: 16px !important;
+    top:4px;
+    left:4px;
+}
+.icon-search::before{
+    width: 16px !important;
+    height: 16px !important;
+    background: url('../../assets/img/sprites.06b14dc5.svg') no-repeat -292px -28px;
+    top:4px;
+    left: 4px;
+}
+
+.icon-down::before {
+    background-image: url('../../assets/img/icon-down.svg');
+	width: 10px !important;
+	height: 6px !important;
+    top: 9px;
+    left: 7px;
+}
+.icon-combo{
+    height: 34px !important;
+    width: 34px !important;
+    cursor: pointer;
+    position: relative;
+}
+.icon-combo::before{
+    content: "";
+    position:absolute;
+    background-image: url('../../assets/img/icon-down.svg');
+	width: 10px !important;
+	height: 6px !important;
+    top:15px;
+    left: 12px;
+}
+
+.icon-prev::before{
+    background: url('../../assets/img/sprites.06b14dc5.svg') no-repeat -247px -4px;
+	width: 9px !important;
+	height: 16px !important;
+    transform: rotate(180deg);
+    top:4px;
+    left:8px;
+}
+.icon-after::before{
+    background: url('../../assets/img/sprites.06b14dc5.svg') no-repeat -247px -4px;
+	width: 9px !important;
+	height: 16px !important;
+    top:4px;
+    left:8px;
+}
+.icon-active{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    margin-right: 8px;
+}
+ 
+.icon-close::before{
+    height: 16px;
+    width: 16px;
+    top:6px;
+    left:4px;
+    background: url('../../assets/img/sprites.06b14dc5.svg') no-repeat -245px -30px;
+}
+.icon-guide::before{
+    background: url('../../assets/img/giaoduc2.svg') no-repeat -314px -2px;
+	width: 20px;
+	height: 20px;
+    top:2px;
+    left:2px;
+}
+.icon-tick::before{
+    background: url('../../assets/img/sprites.06b14dc5.svg') no-repeat -195px -30px;
+	width: 18px;
+	height: 12px;
+    top:4px;
+    left: 2px;
+}
+.icon.no-active{
+    opacity: 0.5;
+}
+
+.icon-fix::before{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -1658px -90px;
+	width: 20px !important;
+	height: 20px !important;
+    top:2px;
+    left: 2px;
+}
+.icon-triggle::before{
+    background: url('../../assets/img/sprites.06b14dc5.svg') no-repeat -171px -58px;
+	width: 18px !important;
+	height: 4px !important;
+    top:10px;
+    left:3px;
+}
+
+.icon-success::before{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -1602px -258px;
+	width: 20px !important;
+	height: 20px !important;
+    top:2px;
+    left:2px;
+}
+.icon-filter-active::before{
+    background-image: url('../../assets/img/ic_filter_active.582f4745.svg');
+    left: -2px;
+}

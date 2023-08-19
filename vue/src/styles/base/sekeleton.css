@@ -1,0 +1,29 @@
+.skeleton {
+    background: linear-gradient(to right, #d1d0d0 0%, #e2dede 20%, #d1d0d0 100%);
+    animation: skeleton-animation 0.5s infinite ease;
+    width: 80%;
+    height: 60%;
+    margin: 8px auto;
+    border-radius: 4px;
+}   
+
+@keyframes skeleton-animation {
+    0% {
+        background: linear-gradient(to right, #d1d0d0 0%, #e2dede 10%, #d1d0d0 80%, #e2dede 100%);
+    }
+
+    30% {
+        background: linear-gradient(to right, #d1d0d0 0%, #e2dede 40%, #d1d0d0 100%);
+
+    }
+
+    60% {
+        background: linear-gradient(to right, #d1d0d0 0%, #e2dede 80%, #d1d0d0 100%);
+
+    }
+
+    100% {
+        background: linear-gradient(to right, #d1d0d0 0%, #e2dede 100%);
+
+    }
+}

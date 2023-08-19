@@ -1,0 +1,60 @@
+.btn{
+    min-width:80px;
+    min-height:36px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: font;
+}
+.btn.btn-just-icon{
+    min-width:unset;
+    padding: 0 6px;
+}
+.btn:hover, .btn:focus{
+    background-color: var(--disable-color);
+}
+.btn--primary{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+}
+.btn--primary:hover, .btn--primary:focus{
+    background-color: var(--primary-hover-color);
+}
+.btn-icon{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    padding-left: 12px;
+    padding-right: 16px;
+}
+.btn--secondary{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: white;
+    padding: 0 12px;
+}
+.btn--secondary:hover{
+    background-color: var(--secondary-hover-color);
+}
+.btn--secondary:focus{
+    background-color: var(--primary-hover-color);
+    color: white;
+}
+.btn-close{
+    background-color: var(--error-color);
+    color: white;
+}
+.btn-close:hover,.btn-close:focus{
+    background-color: var(--danger-color);
+}
+.btn-delete{
+    background-color: white;
+    color:var(--error-color);
+    border-color: var(--error-color);
+}
+.btn-delete:hover,.btn-delete:focus{
+    background-color:var(--delete-color);
+}

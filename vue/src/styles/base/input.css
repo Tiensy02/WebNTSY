@@ -1,0 +1,117 @@
+.input-box{
+    display: flex;
+    height:36px;
+    border-radius: 4px;
+    background-color: #fff;
+    justify-content: space-between;
+    border: 1px solid var(--border-color);
+}   
+.input-text{
+    width: 265px;
+}
+.input.input-disabled{
+    color: #b5b5b5;
+}
+.input-box.input-disabled{
+    position: relative;
+}
+.input-box.input-disabled:hover{
+    border: 1px solid var(--border-color);
+}
+.input-box.input-disabled::before{
+    content: "";
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.08);
+    position: absolute;
+    height: 100%;
+    border-radius: 4px;
+    z-index: 1;
+}
+.input-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.select-input{
+    width: 100%;
+}
+.input-box:hover{
+    border: 1px solid var(--primary-color);
+}
+.input-box:focus-within{
+    border-color: var(--primary-color);
+}
+.input-wrap.is-valid .input-box{
+    border-color: var(--error-color);
+}
+.input{
+    padding:9px 12px;   
+    outline: none;
+    flex: 1 ;
+    border: none;
+    min-height: 34px;
+    border-radius: 4px;
+    font-family: font;
+    font-size: 14px;
+    width: 100%;
+}
+.form-label{
+    color: #666;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.input__icon{
+    position: relative;
+    width: 24px;
+    height:24px;
+    margin-top:6px;
+    margin-right:6px;
+}
+
+.form-group .request{
+    position:relative;
+}
+.form-group .request::after{
+    content: "*";
+    color: rgb(202, 4, 4);
+    position:absolute;
+    margin-left: 4px;
+}
+.radio-wrap{
+    position:relative;
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+.radio-box{
+    position:absolute;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+.radio-wrap .checkmak{
+    background: url('../../assets/img/giaoduc2.svg') no-repeat -4px -188px;
+	width: 16px;
+	height: 16px;
+    position: absolute;
+    top:4px;
+    left: 4px;
+}
+.radio-box:checked~.checkmak{
+    background: url('../../assets/img/giaoduc2.svg') no-repeat -52px -188px;
+	width: 16px;
+	height: 16px;
+}
+
+.text-error-mess{
+    margin-top: 8px;
+    color: var(--error-color);
+}
+.checkbox-wrapper{
+    column-gap: 5px;
+    width: 140px;
+}
+
+  

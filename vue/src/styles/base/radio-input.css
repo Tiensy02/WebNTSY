@@ -1,0 +1,21 @@
+.radio-item-wrap{
+    display: flex;
+    column-gap: 32px;
+    margin-top: 12px;
+}
+
+.radio-item{
+    display: flex;
+    align-items: center;
+}
+.radio-input{
+    width: 16px;
+    height: 16px;
+    margin: 0 8px 0 0 ;
+}
+.radio-item:hover{
+    cursor: pointer;
+}
+.radio-input:hover{
+    cursor: pointer;
+}

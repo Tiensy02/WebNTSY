@@ -1,0 +1,135 @@
+.sidebar{
+    width: 200px;
+    height:calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    color: black;
+    float: left;
+    box-shadow: inset 0  1px 2px 0 rgba(0, 0, 0, 0.1);
+    padding-bottom: 18px;
+
+}
+.sidebar__menu{
+    flex: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/*chỉnh sửa scrollbar*/
+.sidebar__menu::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar__menu::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+.sidebar__menu::-webkit-scrollbar-thumb {
+    background-color: #cdd3d6;
+    border-radius: 2px;
+}
+  
+.sidebar__menu::-webkit-scrollbar-thumb:hover {
+    background-color: #6d6d6d;
+}
+.sidebar__menu::-webkit-scrollbar-corner {
+    display: none;
+  }
+/* Chỉnh sửa các thành phần trong items */
+.sidebar__items{
+    display: flex;
+    padding-left:12px;
+    column-gap: 12px;
+    height: 42px;
+    align-items: center;
+    cursor: pointer;
+    margin:8px;
+    border-radius: 8px;
+}
+.sidebar__items:hover{
+    background-color: #eff7ff;
+    color:#ff6d00;
+}
+.sidebar__items.item--active{
+    background-color: #fbe9e7;
+    color:#ff6d00;
+
+}
+.sidebar__items_head{
+    flex: 0 0 24px;
+    height: 24px;
+}
+.menu-line{
+    margin:0 14px;
+    height: 2px;
+    background-color: #ddd;
+}
+/* Thêm icon vào các item */
+
+.item1::before {
+    background-image: url('../../assets/img/item1.svg');
+}
+.item2::before {
+    background-image: url('../../assets/img/icon2-1.svg');
+}
+.item3::before {
+    background-image: url('../../assets/img/icon3-1.svg');
+}
+.item4::before {
+    background-image: url('../../assets/img/icon4-1.svg');
+}
+.item5::before {
+    background-image: url('../../assets/img/icon5-1.svg');
+}
+.item6::before {
+    background-image: url('../../assets/img/icon6-1.svg');
+}
+.item7::before {
+    background-image: url('../../assets/img/icon7-1.svg');
+}
+.item8::before {
+    background-image: url('../../assets/img/icon8-2.svg');
+}
+.item9::before {
+    background-image: url('../../assets/img/icon9-1.svg');
+}
+.item10::before {
+    background-image: url('../../assets/img/icon10-1.svg');
+}
+.sidebar__items_text {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+.sidebar__items:hover .sidebar__items_text{
+    overflow: unset;
+    white-space: unset;
+}
+
+/** Chỉnh sửa sidebar bottom */
+.sidebar__bottom{
+    height: 40px;
+    width: 100%;
+    
+}
+.sidebar__bottom-wrap{
+    height: 100%;
+    padding:8px 16px;
+    display: flex;
+    align-items: center;
+    margin: 0 8px;
+    border-radius: 8px;
+    background-color: #edf1f5;
+}
+
+.icon-back::before{
+    content: "";    
+    background-image: url(../../assets/img/back-icon.svg);
+}
+.back{
+    width: 24px;
+    height:24px;
+    font-size: 26px;
+    text-align: center;
+    line-height:24px ;
+    cursor: pointer;
+}

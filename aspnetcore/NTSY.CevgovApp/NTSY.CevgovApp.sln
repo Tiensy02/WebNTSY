@@ -1,0 +1,55 @@
+?
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTSY.CevgovApp", "NTSY.CevgovApp\NTSY.CevgovApp.csproj", "{B6293F46-BEFB-418A-958E-E19413B2B726}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTSY.CevgovApp.Application", "NTSY.CevgovApp.Application\NTSY.CevgovApp.Application.csproj", "{2E29E04D-F28B-4F19-866B-A06B316A5154}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTSY.CevgovApp.Domain", "NTSY.CevgovApp.Domain\NTSY.CevgovApp.Domain.csproj", "{38418191-94FD-44C0-B1AB-45386A2F36C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTSY.CevgovApp.Infastructor", "NTSY.CevgovApp.Infastructor\NTSY.CevgovApp.Infastructor.csproj", "{0647568E-EBD3-4F13-A056-CC56689B9104}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTSY.CevgovApp.Domain.Tests", "NTSY.CevgovApp.Domain.Tests\NTSY.CevgovApp.Domain.Tests.csproj", "{DCCC8182-D17E-470D-ABC0-2C4C5500B064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTSY.CevgovApp.Application.Tests", "NTSY.CevgovApp.Application.Tests\NTSY.CevgovApp.Application.Tests.csproj", "{FE05011D-9F8F-408C-A956-247A299C4E58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6293F46-BEFB-418A-958E-E19413B2B726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6293F46-BEFB-418A-958E-E19413B2B726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6293F46-BEFB-418A-958E-E19413B2B726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6293F46-BEFB-418A-958E-E19413B2B726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E29E04D-F28B-4F19-866B-A06B316A5154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E29E04D-F28B-4F19-866B-A06B316A5154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E29E04D-F28B-4F19-866B-A06B316A5154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E29E04D-F28B-4F19-866B-A06B316A5154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38418191-94FD-44C0-B1AB-45386A2F36C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38418191-94FD-44C0-B1AB-45386A2F36C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38418191-94FD-44C0-B1AB-45386A2F36C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38418191-94FD-44C0-B1AB-45386A2F36C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0647568E-EBD3-4F13-A056-CC56689B9104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0647568E-EBD3-4F13-A056-CC56689B9104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0647568E-EBD3-4F13-A056-CC56689B9104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0647568E-EBD3-4F13-A056-CC56689B9104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCCC8182-D17E-470D-ABC0-2C4C5500B064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCCC8182-D17E-470D-ABC0-2C4C5500B064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCCC8182-D17E-470D-ABC0-2C4C5500B064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCCC8182-D17E-470D-ABC0-2C4C5500B064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE05011D-9F8F-408C-A956-247A299C4E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE05011D-9F8F-408C-A956-247A299C4E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE05011D-9F8F-408C-A956-247A299C4E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE05011D-9F8F-408C-A956-247A299C4E58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D2AD4D2-4406-4FC5-8867-9AF74367EBE8}
+	EndGlobalSection
+EndGlobal

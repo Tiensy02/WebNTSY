@@ -1,0 +1,176 @@
+.table-main{
+    height: calc(100% - 36px - 36px - 16px - 16px);
+}
+.table-box{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.1);
+}
+.table-wrap{
+    overflow:auto;
+    flex:1;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    padding:16px;
+} 
+th,td{
+    border-right: 1px solid var(--border-color);
+    text-align: left;
+    font-size: 14px;
+    padding:0 16px;
+}
+th{
+    height: 48px;
+}
+td{
+    height: 40px;
+}
+
+tr{
+    border-top: 1px solid #E0E0E0;
+    cursor: pointer;
+}
+
+thead{
+    position:sticky;
+    top:0;
+    background-color: white;
+    border-bottom: 1px solid var(--border-color);
+    z-index: 2;
+}
+thead tr{
+    border-top: unset;
+}
+.stiky-left-column{
+    position:sticky;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+}
+tr:hover .stiky-left-column{
+    background-color:#fbe9e7 ;
+}
+tr:last-child{
+    border-bottom: 1px solid #E0E0E0;
+}
+tr:hover {
+    background-color: #fbe9e7;
+}
+thead tr:hover{
+    background-color: transparent;
+}
+thead tr:hover .stiky-left-column{
+    background-color: white;
+}
+td:last-child,th:last-child{
+    border-right: unset;
+}
+/* set chiều dài các cột */
+.column-56{
+    min-width: 56px;
+    width: 56px;
+}
+.column-310{
+    min-width: 310px;
+    width: 310px;
+}
+.column-180{
+    min-width: 180px;
+    width: 180px;
+}
+.column-160{
+    min-width: 160px;
+    width: 160px;
+}
+.column-200{
+    min-width: 200px;
+    width: 200px;
+}
+/*Chỉnh sửa paging*/
+.table__paging{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    padding:0 16px;
+}
+
+.select-record {
+    height: 36px;
+    width: 86px;
+   
+}
+.paging{
+    display: flex;
+    column-gap: 36px;
+    align-items: center;
+}
+
+.paging-control{
+    column-gap: 16px;
+}
+.paging-toogle{
+    display: flex;
+    column-gap: 12px;
+}
+.paging-control{
+    justify-content: space-between;
+}
+
+
+
+/* Chỉnh sửa scrollbar*/
+.table-wrap::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.table-wrap::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+.table-wrap::-webkit-scrollbar-thumb {
+    background-color: #b5b5b5;
+    border-radius: 10px;
+}
+  
+.table-wrap::-webkit-scrollbar-thumb:hover {
+    background-color: #9e9e9e;
+}
+.table-wrap::-webkit-scrollbar-corner {
+    display: none;
+}
+
+.row-table{
+    position: relative;
+}
+.more-action{
+    display: flex;
+    height: 40px;
+    position:absolute;
+    column-gap: 4px;
+    right: 4px;
+    line-height: 38px;
+    align-items: center;
+    display: none;
+}
+.row-table:hover .more-action{
+    display: flex;
+}
+.action-item{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
